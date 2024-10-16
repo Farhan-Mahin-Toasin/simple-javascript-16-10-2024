@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h2>Hello</h2>
+    <p id="name">My name is Farhan</p>
+    <button id="btn">Change my name</button>
+
+
+    <script>
+        var name = document.getElementById('name');
+        var btn = document.getElementById('btn');
+        btn.addEventListener('click', function () {
+            name.innerText = "My name is Toasin!";
+        })
+    </script>
+</body>
+</html>
